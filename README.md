@@ -19,8 +19,13 @@ A file-based inventory system built in C that allows users to manage products ef
 - Input Validation
 
 ## How to Run
-
-gcc main.c -o inventory  
+### Step 1: Compile the program
+gcc main.c -o inventory
+### Step 2: Run the program
+./inventory
+### 🖥️ Linux / Mac
+```bash
+gcc main.c -o inventory
 ./inventory
 
 ## What I Learned
