@@ -1,7 +1,7 @@
 # Inventory Management System (C)
 
 ## Description
-A file-based inventory system built in C that allows users to manage products efficiently.
+A file-based inventory system built in C that allows users to manage products efficiently using CRUD operations.
 
 ## Features
 - Add Product
@@ -20,10 +20,15 @@ A file-based inventory system built in C that allows users to manage products ef
 
 ## How to Run
 
-gcc day40_inventory_management_system.c -o inventory
+gcc main.c -o inventory  
 ./inventory
+
+## What I Learned
+- How file systems work in C
+- How real software handles data
+- Clean coding practices
 
 ## Future Improvements
 - Add price field
 - Sorting system
-- Export to text file
+- Better UI
